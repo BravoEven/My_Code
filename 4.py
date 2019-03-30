@@ -28,9 +28,6 @@ tk.Radiobutton(top, text="Red", variable=color, value="red", command=colorChecke
 tk.Radiobutton(top, text="Blue", variable=color, value="blue", command=colorChecked).pack(side=tk.LEFT)
 tk.Radiobutton(top, text="Green", variable=color, value="green", command=colorChecked).pack(side=tk.LEFT)
 
-typeBlod = tk.IntVar()
-typeItalic = tk.IntVar()
-tk.Checkbutton(top, text="Blod", variable=typeBlod, onvalue=1, offvalue=0, command=typeChecked).pack(side=tk.LEFT)
-tk.Checkbutton(top, text="Italic", variable=typeItalic, onvalue=2, offvalue=0, command=typeChecked).pack(side=tk.LEFT)
+
 
 top.mainloop()
