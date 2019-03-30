@@ -5,7 +5,7 @@ import re
 import  json
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
-city="苏州"
+
 city.encode(encoding="UTF-8")
 url='http://www.todayonhistory.com/'
 
